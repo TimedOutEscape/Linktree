@@ -29,12 +29,12 @@
   /* You can change the background, text color and active color of the menu by changing the color codes. */
   --menu_background_color: #0e0e0e;
   --menu_text_color: #fff;
-  --menu_active_text_color: #f1c40f;
+  --menu_active_text_color: #80c6ed;
 
   /* You can change the button's background, text color and active color by changing the color codes. */
-  --button_background_color: #0e0e0e;
-  --button_text_color: #fff;
-  --button_text_hover_color: #f1c40f;
+  --button_background_color: #ffffff;
+  --button_text_color: #000000;
+  --button_text_hover_color: #80c6ed;
 
   /* You can change the background, text color and active color of the text field by changing the color codes. */
   --textarea_background_color: #0e0e0e;
@@ -54,6 +54,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   background: var(--background_color) var(--background_image) no-repeat center;
+  background-size: cover;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -205,6 +206,8 @@ main {
   min-height: 3.7em;
   text-align: center;
   cursor: pointer;
+  border: 1px 	solid;
+  border-color: --var(--button_text_color);
 }
 
 .main_small_button_list {
@@ -236,6 +239,8 @@ main {
   min-height: 3.7em;
   text-align: center;
   cursor: pointer;
+  border: 1px 	solid;
+  border-color: --var(--button_text_color);
 }
 
 /* Footer Codes */
