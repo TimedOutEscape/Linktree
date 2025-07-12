@@ -112,12 +112,24 @@ body {
 /* Social Media Icons Codes */
 
 .header_svg_list {
-  padding-top: 1em;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--button_text_color);
+  background-color: rgba(255, 255, 255, 75%);
+  margin-top: 1em;
+  padding: 0.4em;
+  border-color: var(--background_color);
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 0.3em;
+  min-height: 3.7em;
+  text-align: center;
 }
 
 .header_svg_item {
-  width: 2.7em;
-  height: 2.7em;
+  width: 3.2em;
+  height: 3.2em;
   cursor: pointer;
 }
 
